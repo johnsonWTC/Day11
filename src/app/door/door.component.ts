@@ -21,7 +21,7 @@ export class DoorComponent implements OnInit {
   ngOnInit(): void {
   }
 
- door : Door[] = [{
+ doors : Door[] = [{
     size :5,
     color : "Blue"
   },{

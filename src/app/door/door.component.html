@@ -1,1 +1,11 @@
 <p>door works!</p>
+<table>
+    <tr>
+        <th>Size</th>
+        <th>Color</th>
+    </tr>
+    <tr *ngFor="let door of doors">
+        <td>{{door.size}}</td>
+        <td>{{door.color}}</td>
+    </tr>
+</table>
